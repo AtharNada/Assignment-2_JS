@@ -1,0 +1,28 @@
+#header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#quote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#author{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#new-quote{
+    background-color: rgba(128, 0, 128, 0.455);
+    border: 1px transparent;
+    border-radius: 5px;
+}
+#quote-box{
+    height: 150px;
+}
+#new-quote{
+    position: relative;
+    transition: 0.5s;
+    box-shadow: 1px 1px 2px 1px rgba(128, 128, 128, 0.363);
+    color: rgb(28, 24, 24);
+}
+#new-quote:hover{
+    background-color: white;
+    border: 1px solid rgba(128, 0, 128, 0.455);
+    color: rgba(128, 0, 128, 0.856);
+}
